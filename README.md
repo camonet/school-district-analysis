@@ -38,9 +38,28 @@ Above: THS's school placement before
 
 Above: THS's school placement after removing the 9th grade level grades
 
-How does replacing the ninth-grade scores affect the following:
+### How does replacing the ninth-grade scores affect the following:
   Math and reading scores by grade
+  - Before omitting the 9th graders scores at THS, the 9th grade math score was 83.6. The new analysis shows "NaN" for the THS 9th grade math score. The same process was applied for the reading scores as well; the original averag e9th grade reading score was 83.7. 
   Scores by school spending
+  
+  <img width="588" alt="Screen Shot 2022-06-04 at 11 13 03 PM" src="https://user-images.githubusercontent.com/99444856/172034720-afd1c48f-fa03-45fb-945e-ddb9369ac87c.png">
+  - The above data frame shows the students scores by school spending. It was found to be the same after replacing the ninth-grade scores. 
+  
   Scores by school size
+  
+  <img width="588" alt="Screen Shot 2022-06-04 at 11 15 09 PM" src="https://user-images.githubusercontent.com/99444856/172034775-66e96bf0-fa10-4abf-b98d-1f15b41f6182.png">
+
+  - Similarly, the scores for school size did not change after replacing the ninth-grade scores. 
+ 
   Scores by school type
+  
+  <img width="591" alt="Screen Shot 2022-06-04 at 11 17 46 PM" src="https://user-images.githubusercontent.com/99444856/172034840-090380b4-cd37-4910-a9c1-4716ae1da886.png">
+  
+  - As was the case for the other categories, the grades by charter/district schools did not change after replacing the ninth-grade scores.  
+
 ## Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+- Change #1: The average math score changed from 83.418349 to 83.350937
+- Change #2: The average reading score changed from 83.848930 to 83.896082
+- Change #3: The percentage passing math changed from 93.272171% to 93.185690%	97.018739
+- Change #4: The percentage passign reading changed from 97.308869% to 97.018739%
